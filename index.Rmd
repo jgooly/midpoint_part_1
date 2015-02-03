@@ -1,0 +1,91 @@
+---
+title       : Project Midpoint
+subtitle    : MGT 444 1122
+author      : Jeff Binabio, Julian Ganguli, Andrew Lee, and Lei Su
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Data
+
+- CMS.gov
+    + Built an automated web scraper to gather MA CMS data
+        + 80 zip files
+        + Unzips, compiles, and outputs all data in one csv file
+    + Data frame 254,566 x 12
+
+- Other
+    + Geo code data
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+setwd("~/Google Drive New/Rady (G-Drive)/MGT 444 (analytics)/KP Project/plots")
+library('ggplot2')
+library('googleVis')
+load('plots.Rdata')
+```
+
+--- .class #id 
+
+## Exploratory Data Analysis
+
+```{r, fig.height=7, fig.width=13, echo=FALSE}
+
+plot.1 + ggtitle('')
+
+```
+
+--- .class #id 
+
+## Heat Map of MA Penetration Rates by CA County: Jan 2015
+
+```{r, fig.height=7, fig.width=14, echo=FALSE, message=FALSE, warning=FALSE}
+
+p2 + ggtitle('')
+
+```
+
+--- .class #id 
+
+## MA Penetration Rates by CA Counties by Time:<br>
+## 2008 to 2015
+
+```{r, fig.height=7, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
+
+plot.2 + ggtitle('')
+
+```
+
+--- .class #id 
+
+## Many Dimensions to Consider...
+
+### It would be interesting to see how each county has changed over time in several dimensions simultaneously. <br>
+<br>
+### Let's look at a motion chart... 
+
+--- .class #id 
+
+## Let's Look at a Motion Chart
+
+```{r, motionchartcode, results='asis', echo=FALSE}
+
+options(gvis.plot.tag = "chart")
+
+plot(mo.chart.slide.one)
+
+```
+
+--- .class #id
+
+## To Be Continued...
+
+### This presentation has been truncated.
+### The company specific data is included in a seperate presentation. 
+
+--- .class #id
