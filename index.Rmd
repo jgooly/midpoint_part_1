@@ -1,6 +1,6 @@
 ---
 title       : Project Midpoint
-subtitle    : MGT 444 1122
+subtitle    : Rady School of Management - MGT 444
 author      : Jeff Binabio, Julian Ganguli, Andrew Lee, and Lei Su
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
