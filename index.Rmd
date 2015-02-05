@@ -23,7 +23,6 @@ knit        : slidify::knit2slides
     + Geo code data
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-
 setwd("~/Google Drive New/Rady (G-Drive)/MGT 444 (analytics)/KP Project/plots")
 library('ggplot2')
 library('googleVis')
@@ -44,7 +43,7 @@ plot.1 + ggtitle('')
 
 ## Heat Map of MA Penetration Rates by CA County: Jan 2015
 
-```{r, fig.height=7, fig.width=14, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, cache=FALSE, fig.height=7, fig.width=14, echo=FALSE, message=FALSE, warning=FALSE}
 
 p2 + ggtitle('')
 
@@ -70,6 +69,7 @@ plot.2 + ggtitle('')
 ### Let's look at a motion chart... 
 
 --- .class #id 
+
 
 ## Let's Look at a Motion Chart
 

@@ -17,3 +17,5 @@ XML
 RSelenium
 rvest
 magrittr
+shiny
+data.table
