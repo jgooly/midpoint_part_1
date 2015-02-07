@@ -34,7 +34,10 @@ knit        : slidify::knit2slides
 
 ## Heat Map of MA Penetration Rates by CA County: Jan 2015
 
-![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png) 
+
+```
+## Error in eval(expr, envir, enclos): object 'p2' not found
+```
 
 --- .class #id 
 
@@ -52,6 +55,7 @@ knit        : slidify::knit2slides
 ### Let's look at a motion chart... 
 
 --- .class #id 
+
 
 ## Let's Look at a Motion Chart
 
