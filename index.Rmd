@@ -31,7 +31,8 @@ load('plots.Rdata')
 
 --- .class #id 
 
-## Exploratory Data Analysis
+## Exploratory Data Analysis: County by Area Type
+There are a few semi-urban and rural counties that have penetration rates well above other counties in their respective class.
 
 ```{r, fig.height=7, fig.width=13, echo=FALSE}
 
@@ -42,6 +43,7 @@ plot.1 + ggtitle('')
 --- .class #id 
 
 ## Heat Map of MA Penetration Rates by CA County: Jan 2015
+Facility locations are primarily in areas with high penetration rates.
 
 ```{r, cache=FALSE, fig.height=7, fig.width=14, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -53,6 +55,7 @@ p2 + ggtitle('')
 
 ## MA Penetration Rates by CA Counties by Time:<br>
 ## 2008 to 2015
+Gradual increasing trends in larger counties. Smaller counties have mix-trend patterns.
 
 ```{r, fig.height=7, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -70,8 +73,8 @@ plot.2 + ggtitle('')
 
 --- .class #id 
 
-
 ## Let's Look at a Motion Chart
+In 2008, there are 3 clusters of counties. By 2015, we see 4 clusters... possibly a fifth cluster emerging.
 
 ```{r, motionchartcode, results='asis', echo=FALSE}
 
