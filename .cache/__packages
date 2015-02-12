@@ -19,3 +19,4 @@ rvest
 magrittr
 shiny
 data.table
+knitr

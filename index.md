@@ -15,19 +15,23 @@ knit        : slidify::knit2slides
 
 - CMS.gov
     + Built an automated web scraper to gather MA CMS data
-        + 80 zip files
-        + Unzips, compiles, and outputs all data in one csv file
+        + ~ 80 zip files
+        + Unzips, munges, compiles, and outputs all data into one data frame
     + Data frame 254,566 x 12
 
-- Other
-    + Geo code data
+- Other data sources
+    + Geo coded county and state data
+    + Geo coded facility data
+    
+Let's take a look at the beginning of our exploratory data analysis...
 
 
 
 --- .class #id 
 
-## Exploratory Data Analysis: County by Area Type
+## MA Penetration Rates by County by Area Type
 There are a few semi-urban and rural counties that have penetration rates well above other counties in their respective class.
+These counties warrant more exploration.
 
 ![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png) 
 
@@ -36,12 +40,15 @@ There are a few semi-urban and rural counties that have penetration rates well a
 ## Heat Map of MA Penetration Rates by CA County: Jan 2015
 Facility locations are primarily in areas with high penetration rates.
 
-![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png) 
+
+```
+## Error in eval(expr, envir, enclos): object 'p2' not found
+```
 
 --- .class #id 
 
 ## MA Penetration Rates by CA Counties by Time:<br>
-## 2008 to 2015
+'08 to '15
 Gradual increasing trends in larger counties. Smaller counties have mix-trend patterns.
 
 ![plot of chunk unnamed-chunk-4](assets/fig/unnamed-chunk-4-1.png) 
@@ -56,7 +63,7 @@ Gradual increasing trends in larger counties. Smaller counties have mix-trend pa
 
 --- .class #id 
 
-## Let's Look at a Motion Chart
+## Motion Chart
 In 2008, there are 3 clusters of counties. By 2015, we see 4 clusters... possibly a fifth cluster emerging.
 
 <!-- MotionChart generated in R 3.1.2 by googleVis 0.5.8 package -->
@@ -41393,6 +41400,16 @@ callbacks.shift()();
 ## To Be Continued...
 
 ### This presentation has been truncated.
-### The company specific data is included in a seperate presentation. 
+### The company specific data is included in a seperate presentation.
 
---- .class #id
+Connect with the team!
+
+Jeff Benabio - Jeffrey.V.Benabio@kp.org | [LinkedIn](http://www.linkedin.com/in/jeffreybenabiomd/en)
+
+Julian Ganguli - JulianGanguli@gmail.com | [LinkedIn](http://www.linkedin.com/in/julianganguli/en)
+
+Andrew Lee - Andrew.Lee@rady.ucsd.edu | [LinkedIn](http://www.linkedin.com/pub/andrew-lee/32/187/525/en)
+
+Lei Sui - Lei.Su@rady.ucsd.edu | [LinkedIn](http://www.linkedin.com/in/leisu2013/en)
+
+
