@@ -41398,7 +41398,7 @@ callbacks.shift()();
 This presentation has been truncated.
 The company specific data is included in a seperate presentation.
 
-## Connect with the team!
+## Connect With The Team!
 <br>
 Jeff Benabio - Jeffrey.V.Benabio@kp.org | [LinkedIn](http://www.linkedin.com/in/jeffreybenabiomd/en)
 
