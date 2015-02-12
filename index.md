@@ -1,5 +1,5 @@
 ---
-title       : Project Midpoint
+title       : Medicare Advantage Analysis - CMS.gov
 subtitle    : Rady School of Management - MGT 444
 author      : Jeff Binabio, Julian Ganguli, Andrew Lee, and Lei Su
 job         : 
@@ -37,18 +37,14 @@ These counties warrant more exploration.
 
 --- .class #id 
 
-## Heat Map of MA Penetration Rates by CA County: Jan 2015
-Facility locations are primarily in areas with high penetration rates.
+## Heat Map of MA Penetration Rates by CA County
+Facility locations are primarily in areas with high penetration rates as of January 2015.
 
-
-```
-## Error in eval(expr, envir, enclos): object 'p2' not found
-```
+![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png) 
 
 --- .class #id 
 
-## MA Penetration Rates by CA Counties by Time:<br>
-'08 to '15
+## MA Penetration Rates by County by Time: '08 to '15
 Gradual increasing trends in larger counties. Smaller counties have mix-trend patterns.
 
 ![plot of chunk unnamed-chunk-4](assets/fig/unnamed-chunk-4-1.png) 
@@ -41399,11 +41395,11 @@ callbacks.shift()();
 
 ## To Be Continued...
 
-### This presentation has been truncated.
-### The company specific data is included in a seperate presentation.
+This presentation has been truncated.
+The company specific data is included in a seperate presentation.
 
-Connect with the team!
-
+## Connect with the team!
+<br>
 Jeff Benabio - Jeffrey.V.Benabio@kp.org | [LinkedIn](http://www.linkedin.com/in/jeffreybenabiomd/en)
 
 Julian Ganguli - JulianGanguli@gmail.com | [LinkedIn](http://www.linkedin.com/in/julianganguli/en)

@@ -1,5 +1,5 @@
 ---
-title       : Project Midpoint
+title       : Medicare Advantage Analysis - CMS.gov
 subtitle    : Rady School of Management - MGT 444
 author      : Jeff Binabio, Julian Ganguli, Andrew Lee, and Lei Su
 job         : 
@@ -26,11 +26,10 @@ knit        : slidify::knit2slides
 Let's take a look at the beginning of our exploratory data analysis...
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-setwd("~/Google Drive New/Rady (G-Drive)/MGT 444 (analytics)/KP Project/plots")
-library('knitr')
 library('ggplot2')
+library('knitr')
 library('googleVis')
-load('plots.Rdata')
+load('~/Google Drive New/Rady (G-Drive)/MGT 444 (analytics)/KP Project/plots/plots.Rdata')
 ```
 
 --- .class #id 
@@ -47,22 +46,21 @@ plot.1 + ggtitle('')
 
 --- .class #id 
 
-## Heat Map of MA Penetration Rates by CA County: Jan 2015
-Facility locations are primarily in areas with high penetration rates.
+## Heat Map of MA Penetration Rates by CA County
+Facility locations are primarily in areas with high penetration rates as of January 2015.
 
 ```{r, cache=FALSE, fig.height=6, fig.width=14, echo=FALSE, message=FALSE, warning=FALSE}
 
-p2 + ggtitle('')
+plot.2a + ggtitle('')
 
 ```
 
 --- .class #id 
 
-## MA Penetration Rates by CA Counties by Time:<br>
-'08 to '15
+## MA Penetration Rates by County by Time: '08 to '15
 Gradual increasing trends in larger counties. Smaller counties have mix-trend patterns.
 
-```{r, fig.height=6, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, fig.height=6, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
 
 plot.2 + ggtitle('')
 
@@ -93,11 +91,11 @@ plot(mo.chart.slide.one)
 
 ## To Be Continued...
 
-### This presentation has been truncated.
-### The company specific data is included in a seperate presentation.
+This presentation has been truncated.
+The company specific data is included in a seperate presentation.
 
-Connect with the team!
-
+## Connect with the team!
+<br>
 Jeff Benabio - Jeffrey.V.Benabio@kp.org | [LinkedIn](http://www.linkedin.com/in/jeffreybenabiomd/en)
 
 Julian Ganguli - JulianGanguli@gmail.com | [LinkedIn](http://www.linkedin.com/in/julianganguli/en)
